@@ -1,0 +1,34 @@
+
+.wallet-list {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.wallet-list td, .wallet-list th {
+  border-bottom: 1px solid #444444;
+  padding-top: 10px;
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+.wallet-list tr:hover {background-color: rgb(241, 234, 234);}
+
+.wallet-list th {
+  background-color: #444444;
+  color: white;
+}
+
+.wallet-list button{
+  padding: 4px 6px;  
+  border: solid 1px gray ;
+  margin-right:  0.2rem ;
+  border-radius:2px ; 
+}
+
+#btnDelete{
+  background-color:#f00b1f;
+  color: white;
+}
+#btnEdit{
+  background-color:#fac30c;
+}

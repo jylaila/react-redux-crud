@@ -1,0 +1,70 @@
+  .container {
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+  }
+  
+
+.fieldset{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 360px;
+    align-content: center;
+    border: solid 1px #c8c7c7;
+    padding: 40px 40px;
+    border-radius: 6px;
+}
+  
+  .container img {
+    width: 200px;
+    position: relative;
+    left:80px;
+    padding-top: 10px;
+  }
+
+  .container .img-wallet{
+    width: 60px;
+    position: relative;
+    top: -120px;
+    left: 123px;
+    transform: rotate(58deg);
+}  
+   
+  .container input {
+    font-size: 1rem;
+    margin: 2px 0;
+    height: 38px;
+    text-align: center;
+    border-radius: 6px;
+    border-color: #c8c7c7 ;
+    width: 350px;
+  }
+  
+  .container button {
+    font-size: 1rem;
+    margin: 12px 0 0;
+    padding: 3px;
+    height: 38px;
+    width: 100%;
+    background-color: hsl(152, 69%, 31%);
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+  
+  .container button:hover {
+    background-color:hsl(152, 67%, 25%);
+  }
+    
+  .container button:disabled {
+    background-color:hsl(152, 69%, 31%,50%);
+    color:white;
+  }
+ 
+  
+  
+  
